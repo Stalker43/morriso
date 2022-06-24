@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  width: 100%;
+  background-color: #383c54;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: space-around;
+}
+.header a {
+  text-decoration: none;
+}
+.logo a {
+  color: white;
+}
+.nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav li {
+  padding: 15px;
+}
+.nav li a {
+  padding: 15px;
+  color: black;
+}
+.search_field {
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: white;
+}
+.search_field input {
+  border: 0;
+}
+.search_field input:focus {
+  color: black;
+  outline: none;
+}
+nav ul,
+nav li {
+  list-style: none;
+}
+.main-list {
+  display: flex;
+}
+.main-list li button {
+  width: 150px;
+  text-align: center;
+
+  padding-top: 10px;
+}
+.main-list li {
+  width: 150px;
+  text-align: center;
+  background-color: #383c54;
+  position: relative;
+}
+.main-list li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: 15px 0;
+}
+.main-list li a:hover {
+  background-color: #808291;
+  transition: all 0.3s;
+}
+.first-list {
+  position: absolute;
+
+  top: 100%;
+  left: 0%;
+  display: none;
+}
+.main-list li:hover .first-list {
+  display: block;
+}
+.second-list {
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  display: none;
+}
+.first-list li:hover .second-list {
+  display: block;
+}
+/* main */
+.main-wrapper {
+  background-color: rgb(68, 67, 67);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.online-school {
+  padding-top: 110px;
+  font-size: 1.5rem;
+  justify-content: center;
+  text-align: center;
+}
+.table {
+  width: 30%;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(62, 61, 61);
+}
+.td {
+  display: flex;
+  justify-content: space-around;
+}
+.train {
+  padding-top: 150px;
+  text-align: center;
+}
+.news {
+  padding-top: 110px;
+  font-size: 1.5rem;
+  justify-content: center;
+  text-align: center;
+}
+.contact {
+  padding-top: 110px;
+  font-size: 1.5rem;
+  justify-content: center;
+  text-align: center;
+}
+footer {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: space-around;
+  width: 97%;
+  background-color: #383c54;
+}
